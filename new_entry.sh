@@ -23,4 +23,4 @@ fi
 #let start_min=${3:0:2}\*60+${3:3:2}
 #let time_spent=$end_min-$start_min
 
-echo "$clean_date,$2,$3,$4,$5" >> ~/Desktop/projects/time_management_sheet/time_management_sheet.csv
+echo "$clean_date,$2,$3,$4,$5" >> ~/time_management_sheet.csv

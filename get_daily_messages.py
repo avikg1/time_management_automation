@@ -1,8 +1,10 @@
 from imessage_reader import fetch_data
 import sys
 import subprocess
-DB_PATH = "/Users/avikgarg/Library/Messages/chat.db"
-WRITE_SCRIPT_PATH = "/Users/avikgarg/Desktop/projects/time_management_sheet/new_entry.sh"
+import os
+
+DB_PATH = os.path.expanduser("~/Library/Messages/chat.db")
+WRITE_SCRIPT_PATH = os.path.expanduser("~/Desktop/projects/time_management_sheet/new_entry.sh")
 DELETE_SCRIPT_PATH = ""
 
 def get_date(message):
